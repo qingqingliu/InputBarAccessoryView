@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		108D2920245345EA00743395 /* CommunityInputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108D291F245345EA00743395 /* CommunityInputBar.swift */; };
+		108D2957245391D700743395 /* CommunityAutoCompletionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108D2956245391D700743395 /* CommunityAutoCompletionManager.swift */; };
+		10ABD116245265C100505609 /* CommunityPublisherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ABD115245265C100505609 /* CommunityPublisherViewController.swift */; };
 		3821ADE120F534DA00DE0D1D /* SubviewExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821ADDF20F534DA00DE0D1D /* SubviewExampleViewController.swift */; };
 		3821ADE220F534DA00DE0D1D /* InputAccessoryExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821ADE020F534DA00DE0D1D /* InputAccessoryExampleViewController.swift */; };
 		3821ADE420F5359800DE0D1D /* CommonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821ADE320F5359800DE0D1D /* CommonTableViewController.swift */; };
@@ -46,6 +49,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		108D291F245345EA00743395 /* CommunityInputBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityInputBar.swift; sourceTree = "<group>"; };
+		108D2956245391D700743395 /* CommunityAutoCompletionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityAutoCompletionManager.swift; sourceTree = "<group>"; };
+		10ABD115245265C100505609 /* CommunityPublisherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityPublisherViewController.swift; sourceTree = "<group>"; };
 		3821ADDF20F534DA00DE0D1D /* SubviewExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubviewExampleViewController.swift; sourceTree = "<group>"; };
 		3821ADE020F534DA00DE0D1D /* InputAccessoryExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputAccessoryExampleViewController.swift; sourceTree = "<group>"; };
 		3821ADE320F5359800DE0D1D /* CommonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTableViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +89,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		108D291E245345D600743395 /* TBC */ = {
+			isa = PBXGroup;
+			children = (
+				10ABD115245265C100505609 /* CommunityPublisherViewController.swift */,
+				108D2956245391D700743395 /* CommunityAutoCompletionManager.swift */,
+				108D291F245345EA00743395 /* CommunityInputBar.swift */,
+			);
+			path = TBC;
+			sourceTree = "<group>";
+		};
 		383B83901F47897800027965 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +125,7 @@
 				3821ADE320F5359800DE0D1D /* CommonTableViewController.swift */,
 				3821ADE020F534DA00DE0D1D /* InputAccessoryExampleViewController.swift */,
 				3821ADDF20F534DA00DE0D1D /* SubviewExampleViewController.swift */,
+				108D291E245345D600743395 /* TBC */,
 				38F0C1FC20C89C8700FF8DD3 /* InputBarExamples */,
 				38F0C20920C89D2D00FF8DD3 /* Cells */,
 				38F0C20A20C89D4100FF8DD3 /* Supporting Files */,
@@ -185,7 +202,7 @@
 				TargetAttributes = {
 					383B83981F47897800027965 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = JH5XJ55XGZ;
+						DevelopmentTeam = NWHQHMD5MJ;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
@@ -234,6 +251,7 @@
 				388714E9202AC9620064C8BB /* InputBarStyleSelectionController.swift in Sources */,
 				383989BA1F55C600003D30DD /* Lorem.swift in Sources */,
 				3821ADE120F534DA00DE0D1D /* SubviewExampleViewController.swift in Sources */,
+				108D2920245345EA00743395 /* CommunityInputBar.swift in Sources */,
 				38F0C1FE20C89C9B00FF8DD3 /* iMessageInputBar.swift in Sources */,
 				38F0C20620C89CDD00FF8DD3 /* ConversationCell.swift in Sources */,
 				3821ADE420F5359800DE0D1D /* CommonTableViewController.swift in Sources */,
@@ -242,8 +260,10 @@
 				38FCF9D6219F797600A47350 /* READMEPreviewViewController.swift in Sources */,
 				38C888C6202051B3000F2E2F /* ImageCell.swift in Sources */,
 				38DAD87D21A685C6001762CD /* NoTextViewInputBar.swift in Sources */,
+				108D2957245391D700743395 /* CommunityAutoCompletionManager.swift in Sources */,
 				3821ADE220F534DA00DE0D1D /* InputAccessoryExampleViewController.swift in Sources */,
 				3821ADE620F5360B00DE0D1D /* InputBarStyle.swift in Sources */,
+				10ABD116245265C100505609 /* CommunityPublisherViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +331,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -366,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -380,11 +400,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = JH5XJ55XGZ;
+				DEVELOPMENT_TEAM = NWHQHMD5MJ;
 				INFOPLIST_FILE = Example/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.nathantannar.InputBarAccessoryViewExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.qliu.InputBarAccessoryViewExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -394,11 +413,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = JH5XJ55XGZ;
+				DEVELOPMENT_TEAM = NWHQHMD5MJ;
 				INFOPLIST_FILE = Example/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.nathantannar.InputBarAccessoryViewExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.qliu.InputBarAccessoryViewExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};

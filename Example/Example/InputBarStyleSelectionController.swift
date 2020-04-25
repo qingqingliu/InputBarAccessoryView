@@ -18,7 +18,7 @@ class InputBarStyleSelectionController: UITableViewController {
         tableView.dataSource = self
         tableView.tableFooterView = UIView()
         title = "InputBarAccessoryView"
-        navigationItem.backBarButtonItem = UIBarButtonItem(title: "Styles", style: .plain, target: nil, action: nil)
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
         navigationController?.navigationBar.tintColor = .white
         navigationController?.navigationBar.barTintColor = UIColor(red: 0/255, green: 122/255, blue: 1, alpha: 1)
         navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
@@ -64,10 +64,16 @@ class InputBarStyleSelectionController: UITableViewController {
                                                         conversation: convo),
                     animated: true)
             } else if indexPath.section == 2 {
-                navigationController?.pushViewController(
-                    SubviewExampleViewController(style: styles[indexPath.row],
-                                                 conversation: convo),
+                if (indexPath.row == 0) {
+                    navigationController?.pushViewController(
+                    CommunityPublisherViewController(conversation: convo),
                     animated: true)
+                } else {
+                    navigationController?.pushViewController(
+                        SubviewExampleViewController(style: styles[indexPath.row],
+                                                     conversation: convo),
+                        animated: true)
+                }
             }
         }
     }
