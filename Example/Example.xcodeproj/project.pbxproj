@@ -10,6 +10,7 @@
 		108D2920245345EA00743395 /* CommunityInputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108D291F245345EA00743395 /* CommunityInputBar.swift */; };
 		108D2957245391D700743395 /* CommunityAutoCompletionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108D2956245391D700743395 /* CommunityAutoCompletionManager.swift */; };
 		10ABD116245265C100505609 /* CommunityPublisherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ABD115245265C100505609 /* CommunityPublisherViewController.swift */; };
+		10FAC55724997E44004F7FDF /* CommunityInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FAC55624997E44004F7FDF /* CommunityInputAccessoryView.swift */; };
 		3821ADE120F534DA00DE0D1D /* SubviewExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821ADDF20F534DA00DE0D1D /* SubviewExampleViewController.swift */; };
 		3821ADE220F534DA00DE0D1D /* InputAccessoryExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821ADE020F534DA00DE0D1D /* InputAccessoryExampleViewController.swift */; };
 		3821ADE420F5359800DE0D1D /* CommonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821ADE320F5359800DE0D1D /* CommonTableViewController.swift */; };
@@ -52,6 +53,7 @@
 		108D291F245345EA00743395 /* CommunityInputBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityInputBar.swift; sourceTree = "<group>"; };
 		108D2956245391D700743395 /* CommunityAutoCompletionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityAutoCompletionManager.swift; sourceTree = "<group>"; };
 		10ABD115245265C100505609 /* CommunityPublisherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityPublisherViewController.swift; sourceTree = "<group>"; };
+		10FAC55624997E44004F7FDF /* CommunityInputAccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityInputAccessoryView.swift; sourceTree = "<group>"; };
 		3821ADDF20F534DA00DE0D1D /* SubviewExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubviewExampleViewController.swift; sourceTree = "<group>"; };
 		3821ADE020F534DA00DE0D1D /* InputAccessoryExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputAccessoryExampleViewController.swift; sourceTree = "<group>"; };
 		3821ADE320F5359800DE0D1D /* CommonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTableViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				10ABD115245265C100505609 /* CommunityPublisherViewController.swift */,
 				108D2956245391D700743395 /* CommunityAutoCompletionManager.swift */,
 				108D291F245345EA00743395 /* CommunityInputBar.swift */,
+				10FAC55624997E44004F7FDF /* CommunityInputAccessoryView.swift */,
 			);
 			path = TBC;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				383B839D1F47897800027965 /* AppDelegate.swift in Sources */,
 				38FCF9D6219F797600A47350 /* READMEPreviewViewController.swift in Sources */,
 				38C888C6202051B3000F2E2F /* ImageCell.swift in Sources */,
+				10FAC55724997E44004F7FDF /* CommunityInputAccessoryView.swift in Sources */,
 				38DAD87D21A685C6001762CD /* NoTextViewInputBar.swift in Sources */,
 				108D2957245391D700743395 /* CommunityAutoCompletionManager.swift in Sources */,
 				3821ADE220F534DA00DE0D1D /* InputAccessoryExampleViewController.swift in Sources */,

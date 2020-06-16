@@ -20,7 +20,7 @@ enum InputBarStyle: String, CaseIterable {
     
     func generate() -> InputBarAccessoryView {
         switch self {
-        case .tbc: return CommunityInputBar()
+        case .tbc: return CommunityInputAccessoryView()
         case .imessage: return iMessageInputBar()
         case .slack: return SlackInputBar()
         case .githawk: return GitHawkInputBar()
